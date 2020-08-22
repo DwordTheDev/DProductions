@@ -2,7 +2,7 @@
   "name": "Whitelist",
   "version": "1.0.0",
   "scripts": {
-    "start": "server.js"
+    "start": "index.js"
   },
   "dependencies": {
     "express": "^4.17.1"
