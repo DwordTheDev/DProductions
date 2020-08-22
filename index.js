@@ -9,7 +9,7 @@ const { join } = require("path");
 
 const { readFileSync } = require("fs");
 
-app.use("/api", require("api"))
+app.use("/api", require("./api"))
 
 app.use(express.static(__dirname));
 
