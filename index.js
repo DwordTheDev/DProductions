@@ -1,8 +1,15 @@
 var express = require('express');
 var app =  express();
+const { join } = require("path");
+const { readFileSync } = require("fs");
 
+var port = process.env.PORT
 
-var port = process.env.PORT || 8080
+const { join } = require("path");
+
+const { readFileSync } = require("fs");
+
+app.use("/api", require("api"))
 
 app.use(express.static(__dirname));
 
