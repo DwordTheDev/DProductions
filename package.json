@@ -1,0 +1,12 @@
+{
+  "name": "Whitelist",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "MyMom",
+  "license": "ISC"
+}
